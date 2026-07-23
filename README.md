@@ -1,2 +1,2 @@
 # MAC-design
-designed a mac of 3x3 systolic array 
+designed a mac of 2x2 systolic array 
