@@ -1,0 +1,521 @@
+$date
+	Mon Mar 30 12:23:45 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb $end
+$var wire 16 ! out_11 [15:0] $end
+$var wire 16 " out_10 [15:0] $end
+$var wire 16 # out_01 [15:0] $end
+$var wire 16 $ out_00 [15:0] $end
+$var wire 1 % done $end
+$var reg 1 & clk $end
+$var reg 8 ' data_in_0 [7:0] $end
+$var reg 8 ( data_in_1 [7:0] $end
+$var reg 1 ) rst $end
+$var reg 1 * start $end
+$var reg 8 + weight_in_0 [7:0] $end
+$var reg 8 , weight_in_1 [7:0] $end
+$scope module uut $end
+$var wire 1 & clk $end
+$var wire 8 - data_in_0 [7:0] $end
+$var wire 8 . data_in_1 [7:0] $end
+$var wire 1 ) rst $end
+$var wire 1 * start $end
+$var wire 8 / weight_in_0 [7:0] $end
+$var wire 8 0 weight_in_1 [7:0] $end
+$var wire 16 1 out_11 [15:0] $end
+$var wire 16 2 out_10 [15:0] $end
+$var wire 16 3 out_01 [15:0] $end
+$var wire 16 4 out_00 [15:0] $end
+$var wire 1 5 enable $end
+$var wire 1 % done $end
+$scope module ctrl $end
+$var wire 1 & clk $end
+$var wire 1 ) rst $end
+$var wire 1 * start $end
+$var parameter 2 6 COMPUTE $end
+$var parameter 2 7 DONE $end
+$var parameter 2 8 IDLE $end
+$var parameter 2 9 LOAD $end
+$var reg 3 : count [2:0] $end
+$var reg 1 % done $end
+$var reg 1 5 enable $end
+$var reg 2 ; state [1:0] $end
+$upscope $end
+$scope module sa $end
+$var wire 1 & clk $end
+$var wire 8 < data_in_0 [7:0] $end
+$var wire 8 = data_in_1 [7:0] $end
+$var wire 1 5 enable $end
+$var wire 1 ) rst $end
+$var wire 8 > weight_in_0 [7:0] $end
+$var wire 8 ? weight_in_1 [7:0] $end
+$var wire 8 @ w01_to_11 [7:0] $end
+$var wire 8 A w00_to_10 [7:0] $end
+$var wire 16 B out_11 [15:0] $end
+$var wire 16 C out_10 [15:0] $end
+$var wire 16 D out_01 [15:0] $end
+$var wire 16 E out_00 [15:0] $end
+$var wire 8 F d10_to_11 [7:0] $end
+$var wire 8 G d00_to_01 [7:0] $end
+$scope module PE00 $end
+$var wire 1 & clk $end
+$var wire 1 5 enable $end
+$var wire 8 H in_data [7:0] $end
+$var wire 8 I in_weight [7:0] $end
+$var wire 1 ) rst $end
+$var wire 16 J mult [15:0] $end
+$var reg 8 K data_reg [7:0] $end
+$var reg 8 L out_data [7:0] $end
+$var reg 16 M out_psum [15:0] $end
+$var reg 8 N out_weight [7:0] $end
+$var reg 16 O psum_reg [15:0] $end
+$var reg 8 P weight_reg [7:0] $end
+$upscope $end
+$scope module PE01 $end
+$var wire 1 & clk $end
+$var wire 1 5 enable $end
+$var wire 8 Q in_data [7:0] $end
+$var wire 8 R in_weight [7:0] $end
+$var wire 1 ) rst $end
+$var wire 16 S mult [15:0] $end
+$var reg 8 T data_reg [7:0] $end
+$var reg 8 U out_data [7:0] $end
+$var reg 16 V out_psum [15:0] $end
+$var reg 8 W out_weight [7:0] $end
+$var reg 16 X psum_reg [15:0] $end
+$var reg 8 Y weight_reg [7:0] $end
+$upscope $end
+$scope module PE10 $end
+$var wire 1 & clk $end
+$var wire 1 5 enable $end
+$var wire 8 Z in_data [7:0] $end
+$var wire 8 [ in_weight [7:0] $end
+$var wire 1 ) rst $end
+$var wire 16 \ mult [15:0] $end
+$var reg 8 ] data_reg [7:0] $end
+$var reg 8 ^ out_data [7:0] $end
+$var reg 16 _ out_psum [15:0] $end
+$var reg 8 ` out_weight [7:0] $end
+$var reg 16 a psum_reg [15:0] $end
+$var reg 8 b weight_reg [7:0] $end
+$upscope $end
+$scope module PE11 $end
+$var wire 1 & clk $end
+$var wire 1 5 enable $end
+$var wire 8 c in_data [7:0] $end
+$var wire 8 d in_weight [7:0] $end
+$var wire 1 ) rst $end
+$var wire 16 e mult [15:0] $end
+$var reg 8 f data_reg [7:0] $end
+$var reg 8 g out_data [7:0] $end
+$var reg 16 h out_psum [15:0] $end
+$var reg 8 i out_weight [7:0] $end
+$var reg 16 j psum_reg [15:0] $end
+$var reg 8 k weight_reg [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 9
+b0 8
+b11 7
+b10 6
+$end
+#0
+$dumpvars
+bx k
+bx j
+bx i
+bx h
+bx g
+bx f
+bx e
+bx d
+bx c
+bx b
+bx a
+bx `
+bx _
+bx ^
+bx ]
+bx \
+bx [
+b0 Z
+bx Y
+bx X
+bx W
+bx V
+bx U
+bx T
+bx S
+b0 R
+bx Q
+bx P
+bx O
+bx N
+bx M
+bx L
+bx K
+bx J
+b0 I
+b0 H
+bx G
+bx F
+bx E
+bx D
+bx C
+bx B
+bx A
+bx @
+b0 ?
+b0 >
+b0 =
+b0 <
+bx ;
+bx :
+x5
+bx 4
+bx 3
+bx 2
+bx 1
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b0 +
+0*
+1)
+b0 (
+b0 '
+0&
+x%
+bx $
+bx #
+bx "
+bx !
+$end
+#5000
+0%
+05
+b0 :
+b0 ;
+b0 $
+b0 4
+b0 E
+b0 M
+b0 A
+b0 N
+b0 [
+b0 G
+b0 L
+b0 Q
+b0 O
+b0 J
+b0 P
+b0 K
+b0 #
+b0 3
+b0 D
+b0 V
+b0 @
+b0 W
+b0 d
+b0 U
+b0 X
+b0 S
+b0 Y
+b0 T
+b0 "
+b0 2
+b0 C
+b0 _
+b0 `
+b0 F
+b0 ^
+b0 c
+b0 a
+b0 \
+b0 b
+b0 ]
+b0 !
+b0 1
+b0 B
+b0 h
+b0 i
+b0 g
+b0 j
+b0 e
+b0 k
+b0 f
+1&
+#10000
+0&
+0)
+#15000
+1&
+#20000
+0&
+1*
+#25000
+b1 ;
+1&
+#30000
+0&
+0*
+#35000
+b10 ;
+1&
+#40000
+0&
+b10 ,
+b10 0
+b10 ?
+b10 R
+b1 +
+b1 /
+b1 >
+b1 I
+b10 (
+b10 .
+b10 =
+b10 Z
+b1 '
+b1 -
+b1 <
+b1 H
+#45000
+b1 :
+15
+1&
+#50000
+0&
+b100 ,
+b100 0
+b100 ?
+b100 R
+b11 +
+b11 /
+b11 >
+b11 I
+b100 (
+b100 .
+b100 =
+b100 Z
+b11 '
+b11 -
+b11 <
+b11 H
+#55000
+b100 ]
+b100 Y
+b1001 J
+b11 P
+b11 K
+b10 :
+1&
+#60000
+0&
+b110 ,
+b110 0
+b110 ?
+b110 R
+b101 +
+b101 /
+b101 >
+b101 I
+b110 (
+b110 .
+b110 =
+b110 Z
+b101 '
+b101 -
+b101 <
+b101 H
+#65000
+b11 :
+b11 A
+b11 N
+b11 [
+b11 G
+b11 L
+b11 Q
+b1001 O
+b101 P
+b11001 J
+b101 K
+b100 @
+b100 W
+b100 d
+b110 Y
+b100 F
+b100 ^
+b100 c
+b110 ]
+1&
+#70000
+0&
+b1000 ,
+b1000 0
+b1000 ?
+b1000 R
+b111 +
+b111 /
+b111 >
+b111 I
+b1000 (
+b1000 .
+b1000 =
+b1000 Z
+b111 '
+b111 -
+b111 <
+b111 H
+#75000
+b10000 e
+b100 k
+b100 f
+b110 F
+b110 ^
+b110 c
+b11000 \
+b11 b
+b1000 ]
+b110 @
+b110 W
+b110 d
+b1000 Y
+b11000 S
+b11 T
+b1001 $
+b1001 4
+b1001 E
+b1001 M
+b101 A
+b101 N
+b101 [
+b101 G
+b101 L
+b101 Q
+b100010 O
+b111 P
+b110001 J
+b111 K
+b100 :
+1&
+#80000
+0&
+#85000
+b11 ;
+b101 :
+b100010 $
+b100010 4
+b100010 E
+b100010 M
+b111 A
+b111 N
+b111 [
+b111 G
+b111 L
+b111 Q
+b1010011 O
+b1000 @
+b1000 W
+b1000 d
+b11 U
+b11000 X
+b101000 S
+b101 T
+b11 `
+b1000 F
+b1000 ^
+b1000 c
+b11000 a
+b101000 \
+b101 b
+b100 i
+b100 g
+b10000 j
+b110 k
+b100100 e
+b110 f
+1&
+#90000
+0&
+#95000
+b10000 !
+b10000 1
+b10000 B
+b10000 h
+b110 i
+b110 g
+b110100 j
+b1000 k
+b1000000 e
+b1000 f
+b11000 "
+b11000 2
+b11000 C
+b11000 _
+b101 `
+b1000000 a
+b111000 \
+b111 b
+b11000 #
+b11000 3
+b11000 D
+b11000 V
+b101 U
+b1000000 X
+b111000 S
+b111 T
+b1010011 $
+b1010011 4
+b1010011 E
+b1010011 M
+b10000100 O
+b0 ;
+1%
+05
+1&
+#100000
+0&
+#105000
+b0 :
+0%
+1&
+#110000
+0&
+#115000
+1&
+#120000
+0&
+#125000
+1&
+#130000
+0&
+#135000
+1&
+#140000
+0&
+#145000
+1&
+#150000
+0&
+#155000
+1&
+#160000
+0&
+#165000
+1&
+#170000
+0&
